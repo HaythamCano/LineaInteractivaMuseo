@@ -1,15 +1,19 @@
-# Sistema Automatizado de Techo Retráctil a Escala
+# Sistema de Kioscos Interactivos: Historia del Deporte Panameño
 
 ### 🎯 ¿Qué problema resuelve el proyecto?
-Este proyecto demuestra la viabilidad estructural y electrónica de los sistemas de apertura de grandes infraestructuras modernas. Consiste en el diseño mecatrónico a escala de un techo retráctil basado en pétalos triangulares isósceles, comprobando la sincronización de motores y la distribución de peso en rieles de aluminio y estructuras de MDF de 3mm.
+Las exhibiciones físicas de los museos, como los muros de líneas de tiempo[cite: 9], son estáticas y difíciles de actualizar conforme ocurren nuevos hitos deportivos. Este proyecto consiste en el desarrollo y la administración continua de un sistema de kioscos digitales táctiles que complementa la exhibición física. Permite a los visitantes explorar la historia del deporte panameño mediante una interfaz dinámica, bilingüe e intuitiva, asegurando que el contenido (como las medallas y actuaciones históricas recientes) nunca se quede estancado y pueda actualizarse remotamente.
 
-### 💻 ¿Qué tecnologías o lenguajes utilizaste?
-*   **Microcontroladores:** Arduino (placa y código de control en C).
-*   **Electrónica:** Motores paso a paso, sistemas de poleas.
-*   **Materiales Estructurales:** MDF 3mm, rieles de aluminio.
+### 💻 ¿Qué tecnologías y características implementaste?
+*   **Desarrollo Frontend:** Interfaz de usuario (UI) responsiva optimizada para pantallas táctiles de gran formato.
+*   **Accesibilidad y Navegación:** Sistema de inicio táctil ("Toca para iniciar")[cite: 13, 14] y selección de idioma dinámico (ESPAÑOL | ENGLISH)[cite: 12].
+*   **Estructura de Datos Dinámica:** Módulo de línea de tiempo interactiva que renderiza tarjetas de eventos por año (ej. "Actuación Histórica", "Oro Histórico" de 2025)[cite: 10, 11].
+*   **Administración de Contenido:** Arquitectura que me permite actualizar, editar y cargar nuevas hazañas deportivas y galerías multimedia sin necesidad de modificar el código base de la aplicación.
 
 ### 🚀 ¿Cómo se instala y ejecuta el proyecto?
-1. Cargar el script de control en la placa Arduino utilizando el Arduino IDE.
-2. Conectar los motores paso a paso a los pines designados según el esquema de conexión.
-3. Energizar el circuito asegurando el voltaje correcto para los controladores de los motores.
-4. Ejecutar el comando de apertura/cierre para activar el sistema de poleas sincronizado.
+1. Clonar el repositorio en el hardware del kiosco destino.
+2. Ejecutar la aplicación en "Modo Kiosco" (Kiosk Mode) a pantalla completa para restringir la navegación del usuario únicamente a la interfaz del museo.
+3. Para actualizar el contenido, ingresar al panel de administración (CMS) con credenciales de administrador para añadir nuevos años, tarjetas de eventos o modificar los textos en español e inglés.
+4. Reiniciar el servicio de visualización para que la pantalla de inicio cargue los nuevos recursos multimedia[cite: 13, 14].
+
+### 📸 Evidencia del Sistema en Producción
+*(Arrastra aquí 2 o 3 de las fotografías de las pantallas funcionando en el museo, como la del selector de idioma o la línea de tiempo de 2025)*
