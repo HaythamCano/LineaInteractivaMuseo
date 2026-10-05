@@ -1,4 +1,4 @@
-# Sistema de Kioscos Interactivos: Historia del Deporte Panameño
+# Sistema de Linea del Tiempo Interactiva: Historia del Deporte Panameño
 
 ### 🎯 ¿Qué problema resuelve el proyecto?
 Las exhibiciones físicas de los museos, como los muros de líneas de tiempo[cite: 9], son estáticas y difíciles de actualizar conforme ocurren nuevos hitos deportivos. Este proyecto consiste en el desarrollo y la administración continua de un sistema de kioscos digitales táctiles que complementa la exhibición física. Permite a los visitantes explorar la historia del deporte panameño mediante una interfaz dinámica, bilingüe e intuitiva, asegurando que el contenido (como las medallas y actuaciones históricas recientes) nunca se quede estancado y pueda actualizarse remotamente.
